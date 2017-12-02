@@ -5,6 +5,7 @@
   "dependencies": {
     "antd": "^2.13.11",
     "moment": "^2.19.3",
+    "query-string": "^5.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
