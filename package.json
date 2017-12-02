@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=https://bot-maxim.com/form/ react-scripts build",
+    "build": "PUBLIC_URL=https://bot-maxim.com/evotor/ react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "standard": "standard --fix"
