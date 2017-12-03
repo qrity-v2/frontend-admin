@@ -132,15 +132,17 @@ export default class App extends Component {
     return (
       <Table
         dataSource={
-          items.map(({ first_name, last_name, tags, rating: stars, ...item }, key) => {
-            return {
-              ...item,
-              key,
-              stars,
-              name: `${first_name} ${last_name || ''}`,
-              tags: { tags, stars }
-            }
-          })
+          items
+            .sort((a, b) => b.timestamp - a.timestamp)
+            .map(({ first_name, last_name, tags, rating: stars, ...item }, key) => {
+              return {
+                ...item,
+                key,
+                stars,
+                name: `${first_name} ${last_name || ''}`,
+                tags: { tags, stars }
+              }
+            })
         }
         locale={{
           filterConfirm: 'ОК',
