@@ -150,7 +150,6 @@ export default class App extends Component {
           emptyText: 'Не найдено'
         }}
         columns={columns}
-        pagination={false}
       />
     )
   }
