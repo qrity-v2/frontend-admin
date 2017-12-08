@@ -1,4 +1,4 @@
-# frontend
+# frontend-admin
 
 Before run scripts you must install `react-scripts` by NPM.
 
